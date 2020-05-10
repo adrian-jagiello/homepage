@@ -6,6 +6,11 @@ a {
   color: #ebebeb;
 }
 
+section {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
 .navigation {
   background: dimgray;
   display: inline-block;
