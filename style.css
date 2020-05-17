@@ -2,6 +2,18 @@
   background-color: #d4c685;
 }
 
+<<<<<<< HEAD
+=======
+a {
+  color: #ebebeb;
+}
+
+section {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+>>>>>>> 62f04d4e6325cf1116599e781e55b0aa64c1b6bb
 .navigation {
   background: dimgray;
   top: 0px;
