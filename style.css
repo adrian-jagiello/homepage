@@ -1,9 +1,8 @@
 .background {
-  background-color: #d4c685;
+  background: rgb(20,45,255);
+  background: linear-gradient(143deg, rgba(20,45,255,1) 11%, rgba(160,0,175,1) 28%, rgba(240,15,30,0.9066001400560224) 93%);;
 }
 
-<<<<<<< HEAD
-=======
 a {
   color: #ebebeb;
 }
@@ -13,8 +12,9 @@ section {
   margin: 0 auto;
 }
 
->>>>>>> 62f04d4e6325cf1116599e781e55b0aa64c1b6bb
 .navigation {
+  display: flex;
+  justify-content: center;
   background: dimgray;
   top: 0px;
   left: 0px;
@@ -81,9 +81,9 @@ section {
 }
 
 .main-image__index {
-  height: 400px;
-  width: 400px;
-  margin: 0px auto;
+  max-height: 400px;
+  max-width: 400px;
+  margin: 0 auto;
   border-radius: 100%;
 }
 
