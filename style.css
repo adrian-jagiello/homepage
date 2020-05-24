@@ -83,10 +83,12 @@ section {
 }
 
 .main-image__index {
-display: block;
-
+  display: block;
+  max-width: 400px;
+  max-height: 400px;
   margin: 0 auto;
   border-radius: 100%;
+  padding-bottom: 15px;
 }
 
 .page-header {
