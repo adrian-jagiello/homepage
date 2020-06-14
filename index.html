@@ -1,76 +1,70 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="normalize.css" rel="stylesheet" type="text/css">
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body class="background">
-
+  <body class="background">
     <header>
+      <nav class="navigation">
+        <a class="navigation__link--index" href="index.html"
+          >Strona główna</a
+        >
+        <a class="navigation__link" href="nauka-html.html"
+          >Notatki</a
+        >
+        <a class="navigation__link" href="strona-z-html.html"
+          >HTML</a
+        >
+        <a class="navigation__link" href="strona-z-css.html">CSS</a>
+        <a class="navigation__link" href="strona-z-javascript.html"
+          >JS</a
+        >
+      </nav>
+    </header>
 
-        <nav class="navigation">
+    <main class="main">
+      <header class="header">
+        <h1 class="page-header page-header--js">
+          Adrian Jagiełło - Kurs kursik
+        </h1>
+      </header>
 
-            <a class="navigation navigation__link--index" href="index.html">Strona główna</a>
-            <a class="navigation navigation__link" href="nauka-html.html">Notatki</a>
-            <a class="navigation navigation__link" href="strona-z-html.html">HTML</a>
-            <a class="navigation navigation__link" href="strona-z-css.html">CSS</a>
-            <a class="navigation navigation__link" href="strona-z-javascript.html">JS</a> <br />
-        </nav>
+      <section class="photo">
+        <h2></h2>
+        <img class="main-image__index" src="eiskaffee.jpg" alt="Moja morda" />
+      </section>
 
-
-     </header>
-
-    <main>
-
-        <header>
-            <h1  class="page-header page-header--js">Adrian Jagiełło - Kurs kursik</h1>
-
-            <hr />
-
-        </header>
-
-        <section>
-
-            <h2></h2>
-            <img class=main-image__index src="eiskaffee.jpg" alt="Moja morda" />
-          
-        </section>
-
-        
-        <section class="section">
-
-            <hr />
-
-            <h2 class="section__header">Gruby bier się za robotę.</h2>
-            <article class="article">
-            <p class="article article__header--text">
-                Gruby dawaj tego kursana rób. <br />
-                Robo trzeba zmienić no~. <br />
-            </p>
+      <section class="section">
+        <h2 class="section__header">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At tempora
+          beatae repudiandae, modi deserunt unde magni necessitatibus quae nobis
+          quos a quis recusandae quaerat commodi voluptatum, totam explicabo ex
+          porro.
+        </h2>
+        <article class="article">
+          <p class="article article__header--text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dignissimos, et quis dolorem magni harum pariatur perferendis!
+            Accusamus dolores dolorum, vel nam voluptatem similique. Accusantium
+            blanditiis accusamus incidunt cum sed nam.
+          </p>
         </article>
-
+        <article class="article">
+          <p class="article article__header--text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dignissimos, et quis dolorem magni harum pariatur perferendis!
+            Accusamus dolores dolorum, vel nam voluptatem similique. Accusantium
+            blanditiis accusamus incidunt cum sed nam.
+          </p>
+        </article>
+      </section>
     </main>
 
-    <footer class="footer">
-
-        <h5>
-            "Bezczynność rodzi wątpliwości i strach. <br />
-            Działanie rodzi zaufanie i odwagę. <br />
-            Jeśli chcesz zwyciężyć strach, nie siedź w domu, rozmyślając o nim. <br />
-            Wyjdź i zacznij działać." <br />
-            [Dale Carnegie]
-        </h5>
-        
-
-    </footer>
-
     <script src="main.js"></script>
-
-</body>
-
+  </body>
 </html>

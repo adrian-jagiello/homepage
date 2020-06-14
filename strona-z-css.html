@@ -1,93 +1,88 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="normalize.css" rel="stylesheet" type="text/css">
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body class="background">
-
+  <body class="background">
     <header>
-
-        <nav class= "navigation">
-
-            <a class="navigation navigation__link" href="index.html">Strona główna</a>
-            <a class="navigation navigation__link"  href="nauka-html.html">Notatki</a>
-            <a class="navigation navigation__link" href="strona-z-html.html">HTML</a>
-            <a class="navigation navigation__link--css" href="strona-z-css.html">CSS</a>
-            <a class="navigation navigation__link" href="strona-z-javascript.html">JS</a>
-
-        </nav>
-
-        <hr />
-
+      <nav class="navigation">
+        <a class="navigation navigation__link" href="index.html"
+          >Strona główna</a
+        >
+        <a class="navigation navigation__link" href="nauka-html.html"
+          >Notatki</a
+        >
+        <a class="navigation navigation__link" href="strona-z-html.html"
+          >HTML</a
+        >
+        <a class="navigation navigation__link--css" href="strona-z-css.html"
+          >CSS</a
+        >
+        <a class="navigation navigation__link" href="strona-z-javascript.html"
+          >JS</a
+        >
+      </nav>
     </header>
 
-    <main id="Top">
+    <main class="main">
+      <header class="header">
+        <h1>CSS - Cascading Style Sheets</h1>
+      </header>
 
-        <header class="page-header">
+      <section class="photo">
+        <h2></h2>
+        <img class="main-image" src="css-logo.jpg" alt="Logo CSS" />
+      </section>
 
-            <h1>CSS - Cascading Style Sheets</h1>
+      <section class="section">
+        <h2 class="section__header">{} CSS - kaskadowe arkusze stylów.</h2>
 
-            <img class="main-image" src="css-logo.jpg" alt="Logo CSS" />
+        <article class="article">
+          <h3 class="article article__header">Selektory</h3>
 
-        </header>
-
-        <hr />
-
-        <section class="section">
-
-            <h2 class="section__header">{} CSS - kaskadowe arkusze stylów.</h2>
-
-            <article class="article">
-
-                <h3 class="article article__header">Selektory</h3>
-
-                <p class="article article__header--text">
-                    <b>selektor { <br />
-                        własność: wartość</b> <br />
-                    }
-                </p>
-                <hr />
-                <p class="article article__header--text">
-                    &lt; <b>style</b> &gt; <br />
-                    <b>h1 { <br />
-                        color: kolor; <br />
-                        }</b> <br />
-                </p>
-                <hr />
-                <p class="article article__header--text">
-                    <b>p { <br />
-                        background-color: white; / #cccccc; <br />
-                        }</b> <br />
-                </p>
-                <hr />
-                <p class="article article__header--text">
-                    <b>(w head) <br />
-                        &lt;link href="style.css" rel="stylesheet" type="textless"&gt;</b> <br />
-                </p>
-                <hr />
-            </article>
-
-        </section>
-
+          <p class="article article__header--text">
+            <b
+              >selektor { <br />
+              własność: wartość</b
+            >
+            <br />
+            }
+          </p>
+          <hr />
+          <p class="article article__header--text">
+            &lt; <b>style</b> &gt; <br />
+            <b
+              >h1 { <br />
+              color: kolor; <br />
+              }</b
+            >
+            <br />
+          </p>
+          <hr />
+          <p class="article article__header--text">
+            <b
+              >p { <br />
+              background-color: white; / #cccccc; <br />
+              }</b
+            >
+            <br />
+          </p>
+          <hr />
+          <p class="article article__header--text">
+            <b
+              >(w head) <br />
+              &lt;link href="style.css" rel="stylesheet" type="textless"&gt;</b
+            >
+            <br />
+          </p>
+          <hr />
+        </article>
+      </section>
     </main>
-
-    <footer class="footer">
-
-        <h5>
-            "Pewność siebie nie ma źródła w tym, <br />
-            że zawsze ma się rację, <br />
-            ale w braku obawy przed pomyłką." <br />
-            [Peter T. Mcintyre] <br />
-        </h5>
-
-    </footer>
-
-</body>
-
+  </body>
 </html>
