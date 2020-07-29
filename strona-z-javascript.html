@@ -9,9 +9,9 @@
   </head>
 
   <body class="background">
-    <header>
-      <nav class="navigation">
-        <a class="navigation navigation__link" href="index.html"
+    <header class="burger">
+      <nav class="navigation navigation--js">
+        <a class="navigation navigation__link--active" href="index.html"
           >Strona główna</a
         >
         <a class="navigation navigation__link" href="nauka-html.html"
@@ -21,12 +21,11 @@
           >HTML</a
         >
         <a class="navigation navigation__link" href="strona-z-css.html">CSS</a>
-        <a
-          class="navigation navigation__link--js"
-          href="strona-z-javascript.html"
+        <a class="navigation navigation__link" href="strona-z-javascript.html"
           >JS</a
         >
       </nav>
+      <button class="hamburger hamburger--js">BurgerMenu</button>
     </header>
 
     <main class="main">
@@ -60,5 +59,6 @@
         </article>
       </section>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>

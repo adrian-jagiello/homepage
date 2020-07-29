@@ -11,3 +11,13 @@ function greet(age, firstName) {
 }
 
 greet(age, firstName);
+
+
+
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener('click', () => {
+  const nav = document.querySelector('.navigation');
+
+  nav.classList.toggle('navigation--open');
+});
