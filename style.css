@@ -1,0 +1,19 @@
+body {
+    background: rgba(5, 4, 4, 0.815);
+}
+
+a {
+    color: orangered;
+}
+
+h1 {
+    color: rgb(222, 211, 222);
+}
+
+p {
+    color: rgb(206, 198, 198);
+}
+
+footer {
+    color: rgb(222, 210, 234)
+}
