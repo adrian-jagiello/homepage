@@ -1,9 +1,30 @@
-
-
 h2 {
-    color: #1460AA;
+  color: #1460aa;
+}
+
+a {
+    color: rgb(138, 255, 127);
 }
 
 body {
-    background: #fefefe;
+  background-color: #06417c;
+}
+
+.title {
+  background-color: #1460aa;
+  color: aquamarine;
+}
+
+.description {
+  background-color: #2b77c4;
+  color: aquamarine;
+}
+
+.section_styles {
+  background-color: #06417c;
+}
+
+.foot {
+    background-color: #468bd0;
+    color: aquamarine;
 }
